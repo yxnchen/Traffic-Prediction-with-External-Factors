@@ -64,6 +64,13 @@ A Collection of resources for traffic prediction with external factors.
 
 - 2024
 
+|Journal/<br>Conference|Title|Model|Factors|Code|Data|
+|:---|:-------|:------|:------:|:------:|:------:|
+|IET ITS|Combining weather factors to predict traffic flow: A spatial‐temporal fusion graph convolutional network‐based deep learning approach [Paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/itr2.12401)|STFGCN|🌧️||[PEMSD4](http://pems.dot.ca.gov/)<br>[MesoWest](https://mesowest.utah.edu/)|
+|Information Sciences|A multi-channel spatial-temporal transformer model for traffic flow forecasting [Paper](https://doi.org/10.1016/j.ins.2024.120648)|MC-STTM|🌧️🚧(But not use due to limited information)||[PEMS03](https://ojs.aaai.org/index.php/AAAI/article/view/3881)<br>[PEMS04](https://ojs.aaai.org/index.php/AAAI/article/view/3881)<br>[PEMS07](https://ojs.aaai.org/index.php/AAAI/article/view/3881)<br>[PEMS08](https://ojs.aaai.org/index.php/AAAI/article/view/3881)<br>[METR-LA](https://ojs.aaai.org/index.php/AAAI/article/view/5438)<br>[PEMS-BAY](https://ojs.aaai.org/index.php/AAAI/article/view/5438)|
+|Scientific Reports|A multi‐feature spatial–temporal  fusion network for traffic flow  prediction [Paper](https://doi.org/10.1038/s41598-024-65040-1)|ATFEM|🌧️📅||Guizhou|
+|Elsevier EAAI|A traffic-weather generative adversarial network for traffic flow prediction for road networks under bad weather [Paper](https://doi.org/10.1016/j.engappai.2024.109125)|TWeather-GAN|🌧️||[PeMS](http://pems.dot.ca.gov/)<br>[MesoWest](https://mesowest.utah.edu/)|
+
 - 2025
 
 *DiDi: Open datasets from [Didi Chuxing GAIA Initiative](http://outreach.didichuxing.com/research/opendata/en/), tracing the records of taxi drivers and passengers in cities, China. It seems it is not applicable now.*
