@@ -124,6 +124,12 @@ A Collection of resources for traffic prediction with external factors apart fro
 
 ## Datasets
 
+**Commonly used public datasets summary**
+|Name|Mode|Type|🌧️|📅|🚧|🏪|🛣️|Links|
+|:---|:---|:---|:---:|:---:|:---:|:---:|:---:|:---|
+|Bike NYC|Bike|Flow|✔|✔||||[https://www.citibikenyc.com/system-data](https://www.citibikenyc.com/system-data)<br>[https://opendata.cityofnewyork.us/](https://opendata.cityofnewyork.us/)<br>[http://urban-computing.com/data/Data.zip](http://urban-computing.com/data/Data.zip)<br>[https://github.com/topazape/ST-ResNet/tree/main/datasets/BikeNYC](https://github.com/topazape/ST-ResNet/tree/main/datasets/BikeNYC)<br>[https://github.com/tangxianfeng/STDN](https://github.com/tangxianfeng/STDN)<br>[https://github.com/liulingbo918/ATFM/tree/master/data/BikeNYC](https://github.com/liulingbo918/ATFM/tree/master/data/BikeNYC)<br>[https://github.com/CodeZx6/MCSTL/tree/main/data/BikeNYC](https://github.com/CodeZx6/MCSTL/tree/main/data/BikeNYC)|
+|Bike D.C.|Bike|Flow|✔|✔||||[http://urban-computing.com/data/Data.zip](http://urban-computing.com/data/Data.zip)|
+|Bike CHI|Bike|Flow||✔||||[https://www.divvybikes.com/system-data](https://www.divvybikes.com/system-data)<br>Weather:[https://www.ncdc.noaa.gov/data-access](https://www.ncdc.noaa.gov/data-access)|
 
 
 ## Tools
