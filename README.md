@@ -42,7 +42,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 |AAAI '19|Spatiotemporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting [Paper](https://doi.org/10.1609/aaai.v33i01.33013656)|ST-MGCN|🏪|[ST-MGCN](https://github.com/underdoc-wang/ST-MGCN)|Beijing<br>Shanghai|
 |AAAI '19|DeepSTN+: Context-Aware Spatial-Temporal Neural Network for Crowd Flow Prediction in Metropolis [Paper](https://doi.org/10.1609/aaai.v33i01.33011020)|DeepSTN+|🏪|[DeepSTN](https://github.com/FIBLAB/DeepSTN)|MobileBJ<br>[BikeNYC](https://www.citibikenyc.com/system-data)|
 |AAAI '19|Revisiting Spatial-Temporal Similarity: A Deep Learning Framework for Traffic Prediction [Paper](https://doi.org/10.1609/aaai.v33i01.33015668)|STDN|🌧️🚧(But not use in experiment)|[STDN](https://github.com/tangxianfeng/STDN)|[NYC-Taxi](https://github.com/tangxianfeng/STDN)<br>[NYC-Bike](https://github.com/tangxianfeng/STDN)|
-|KDD '19|UrbanFM: Inferring Fine-Grained Urban Flows [Paper](http://doi.acm.org/10.1145/3292500.3330646)|UrbanFM|🌧️📅🚧|[UrbanFM](https://github.com/yoshall/UrbanFM)|[TaxiBJ](https://github.com/yoshall/UrbanFM/tree/master/data)<br>[HappyValley](heat.qq.com)|
+|KDD '19|UrbanFM: Inferring Fine-Grained Urban Flows [Paper](http://doi.acm.org/10.1145/3292500.3330646)|UrbanFM|🌧️📅🚧|[UrbanFM](https://github.com/yoshall/UrbanFM)|[TaxiBJ](https://github.com/yoshall/UrbanFM/tree/master/data)<br>[HappyValley](https://heat.qq.com)|
 |KDD '19|Urban traffic prediction from spatio-temporal data using deep meta learning [Paper](https://doi.org/10.1145/3292500.3330884)|ST-MetaNet|🏪🛣️|[ST-MetaNet](https://github.com/panzheyi/ST-MetaNet)|[TDrive(flow)](http://urban-computing.com/index-58.htm)<br>[METR-LA(speed)](https://paperswithcode.com/dataset/metr-la)|
 
 
@@ -60,7 +60,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
-|WWW '21|Fine-Grained Urban Flow Prediction [Paper](https://dl.acm.org/doi/10.1145/3442381.3449792)|STRN|🌧️📅🚧🏪||[TaxiBJ](https://github.com/yoshall/UrbanFM/tree/master/data)<br>[HappyValley](heat.qq.com)|
+|WWW '21|Fine-Grained Urban Flow Prediction [Paper](https://dl.acm.org/doi/10.1145/3442381.3449792)|STRN|🌧️📅🚧🏪||[TaxiBJ](https://github.com/yoshall/UrbanFM/tree/master/data)<br>[HappyValley](https://heat.qq.com)|
 |IEEE TITS|Dynamic Spatial-Temporal Representation Learning for Traffic Flow Prediction [Paper](https://ieeexplore.ieee.org/document/9127874)|ATFM|🌧️📅|[ATFM](https://github.com/liulingbo918/ATFM)|[TaxiBJ](https://github.com/liulingbo918/ATFM/tree/master/data/TaxiBJ)<br>[BikeNYC](https://github.com/liulingbo918/ATFM/tree/master/data/BikeNYC)<br>[TaxiNYC](https://github.com/liulingbo918/ATFM/tree/master/data/TaxiNYC)|
 |Elsevier EAAI|A flexible deep learning-aware framework for travel time prediction considering traffic event [Paper](https://www.sciencedirect.com/science/article/pii/S0952197621003390)|MC-Net|🚧||Beijing (from Amap)|
 |IEEE Access|Hybrid Deep Spatio-Temporal Models for Traffic Flow Prediction on Holidays and Under Adverse Weather [Paper](https://ieeexplore.ieee.org/document/9612205)|CL-CN-G<br>CL-CNG<br>G-CN-CL|🌧️📅||[PeMS](http://pems.dot.ca.gov/)<br>[MesoWest](https://mesowest.utah.edu/)|
