@@ -3,6 +3,13 @@ A Collection of resources for traffic prediction with external factors apart fro
 
 ## 📖 Contents
 - [Papers](#papers)
+    - [Before 2020](#before-2020)
+    - [2020](#2020)
+    - [2021](#2021)
+    - [2022](#2022)
+    - [2023](#2023)
+    - [2024](#2024)
+    - [2025](#2025)
 - [Datasets](#datasets)
 - [Tools](#tools)
 
@@ -18,7 +25,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 >
 > 🛣️ - Road or highway characteristics, e.g. link width, link length/distance, link type, number of lane, having bus stops, etc
 
-- Before 2020
+### Before 2020
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
@@ -39,7 +46,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 |KDD '19|Urban traffic prediction from spatio-temporal data using deep meta learning [Paper](https://doi.org/10.1145/3292500.3330884)|ST-MetaNet|🏪🛣️|[ST-MetaNet](https://github.com/panzheyi/ST-MetaNet)|[TDrive(flow)](http://urban-computing.com/index-58.htm)<br>[METR-LA(speed)](https://paperswithcode.com/dataset/metr-la)|
 
 
-- 2020
+### 2020
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
@@ -49,7 +56,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 |IEEE TKDE|Flow prediction in spatio-temporal networks based on multitask deep learning [Paper](https://ieeexplore.ieee.org/document/8606218)|MDL|🌧️📅|[MDL(uno)](https://github.com/wanzhixiao/MDL)|[NYC Taxi](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)|
 |IEEE TITS|DeepSTD: Mining Spatio-Temporal Disturbances of Multiple Context Factors for Citywide Traffic Flow Prediction [Paper](https://ieeexplore.ieee.org/document/8793226)|DeepSTD|🌧️📅🏪|[DeepSTD](https://github.com/zhengchuanpan/DeepSTD)|Xiamen<br>[DiDi(Chengdu)](https://github.com/zhengchuanpan/DeepSTD/tree/main/data)|
 
-- 2021
+### 2021
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
@@ -58,7 +65,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 |IEEE Access|Hybrid Deep Spatio-Temporal Models for Traffic Flow Prediction on Holidays and Under Adverse Weather [Paper](https://ieeexplore.ieee.org/document/9612205)|CL-CN-G<br>CL-CNG<br>G-CN-CL|🌧️📅||[PeMS](http://pems.dot.ca.gov/)<br>[MesoWest](https://mesowest.utah.edu/)|
 |IEEE Access|AST-GCN: Attribute-augmented spatiotemporal graph convolutional network for traffic forecasting [Paper](https://ieeexplore.ieee.org/document/9363197/)|AST-GCN|🌧️🏪|[AST-GCN](https://github.com/lehaifeng/T-GCN/AST-GCN)|[SZ_taxi](https://github.com/lehaifeng/T-GCN)|
 
-- 2022
+### 2022
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
@@ -66,7 +73,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 |Transportmetrica B|DLW-Net model for traffic flow prediction under adverse weather [Paper](https://doi.org/10.1080/21680566.2021.2008280)|DLW-Net|🌧️|[AST-GCN](https://github.com/lehaifeng/T-GCN/AST-GCN)|[Hefei(OpenITS)](http://www.openits.cn/)<br>[Sacramento(PeMS)](http://pems.dot.ca.gov/)<br>[MesoWest](https://mesowest.utah.edu/)|
 |KeAi DCAN|Attention-based spatio-temporal graph convolutional network considering external factors for multi-step traffic flow prediction [Paper](https://www.sciencedirect.com/science/article/pii/S2352864821000675)|ABSTGCN-EF|📅🚧||[PeMS-LA](https://github.com/liyaguang/DCRNN)<br>[PeMS-Bay](https://github.com/liyaguang/DCRNN)|
 
-- 2023
+### 2023
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
@@ -80,7 +87,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 ||Spatio-temporal graph convolution network based on multimodal feature fusion (基于多模态特征融合的时空图卷积网络) [Paper](https://github.com/yanganYNU/AFFGCN/blob/main/paper/AFFGCN_paper.pdf)|AFFGCN|🌧️|[AFFGCN](https://github.com/yanganYNU/AFFGCN)|[PEMSD4](https://github.com/guoshnBJTU/ASTGNN)<br>[PEMSD8](https://github.com/guoshnBJTU/ASTGNN)<br>[Iowa Atmospheric Observatory](http://mesonet.agron.iastate.edu/request/download.phtml)|
 |Nature CIS|Integrating knowledge representation into traffic prediction: a spatial–temporal graph neural network with adaptive fusion features [Paper](https://link.springer.com/article/10.1007/s40747-023-01299-7)|KR-STGNN|🌧️🏪||[SZ-taxi](https://github.com/lehaifeng/T-GCN/tree/master/data)<br>SZ_POI<br>SZ_Weather|
 
-- 2024
+### 2024
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
@@ -92,7 +99,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 |ACM CIKM '24|Empowering traffic speed prediction with auxiliary feature-aided dependency learning [Paper](https://doi.org/10.1145/3627673.3679909)|ARIAN|🌧️📅||[PeMS-D4](https://doi.org/10.5281/zenodo.7816008)<br>[PeMS-D8](https://doi.org/10.5281/zenodo.7816008)<br>Cityway|
 |ACM CIKM '24|Seeing the Forest for the Trees: Road-Level Insights Assisted Lane-Level Traffic Prediction [Paper](https://doi.org/10.1145/3627673.3679600)|McgVAE|🛣️|[McgVAE](https://github.com/ShuhaoLii/McgVAE)|[PeMS(_F)](https://github.com/ShuhaoLii/McgVAE/tree/master/Datasets)<br>[HuaNan(Guangzhou)](https://github.com/ShuhaoLii/McgVAE/tree/master/Datasets)|
 
-- 2025
+### 2025
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
