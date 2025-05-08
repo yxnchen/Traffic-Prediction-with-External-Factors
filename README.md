@@ -16,7 +16,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 >
 > 🏪 - POIs or Land features
 >
-> 🛣️ - Road or highway construction status (e.g. link width, link length, link type, number of lane), having bus stops, etc
+> 🛣️ - Road or highway structure, e.g. link width, link length, link type, number of lane, having bus stops, etc
 
 - Before 2020
 
