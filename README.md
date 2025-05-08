@@ -150,8 +150,5 @@ A Collection of resources for traffic prediction with external factors apart fro
 |Shanghai<br>Hangzhou|Metro|Inflow<br>Outflow||✔||||[https://github.com/ivechan/PVCGN/tree/master/data](https://github.com/ivechan/PVCGN/tree/master/data)<br>[https://doi.org/10.57760/sciencedb.09286](https://doi.org/10.57760/sciencedb.09286)<br>Raw HZ data:[https://tianchi.aliyun.com/competition/entrance/231708/introduction](https://tianchi.aliyun.com/competition/entrance/231708/introduction)or[https://cstr.cn/16666.11.nbsdc.pbNr124O](https://cstr.cn/16666.11.nbsdc.pbNr124O)|
 |SHMOD<br>HZMOD|Metro|OD flow||✔||||[https://github.com/HCPLab-SYSU/HIAM](https://github.com/HCPLab-SYSU/HIAM)<br>Raw HZ data:[https://tianchi.aliyun.com/competition/entrance/231708/introduction](https://tianchi.aliyun.com/competition/entrance/231708/introduction)or[https://cstr.cn/16666.11.nbsdc.pbNr124O](https://cstr.cn/16666.11.nbsdc.pbNr124O)|
 |Shenzhen|Metro|IC Card||✔||||Raw data:[https://cstr.cn/16666.11.nbsdc.l9I55m7P](https://cstr.cn/16666.11.nbsdc.l9I55m7P)|
-|Shenzhen|Metro|IC Card||✔||||Raw data:[https://cstr.cn/16666.11.nbsdc.l9I55m7P](https://cstr.cn/16666.11.nbsdc.l9I55m7P)|
-
-
 
 ## Tools
