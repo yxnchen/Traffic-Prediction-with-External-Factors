@@ -1,5 +1,5 @@
 # Traffic Prediction with External Factors
-A Collection of resources for traffic prediction with external factors apart from normal spatial (Adjacency Network) and temporal (Time-of-day, Day-in-week) features.
+A Collection of resources for traffic prediction with external factors apart from normal spatial (Network structure, connectivity) and temporal (Time-of-day, Day-in-week) features.
 
 ## 📖 Contents
 - [Papers](#papers)
@@ -16,7 +16,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 >
 > 🏪 - POIs or Land features
 >
-> 🛣️ - Road or highway structure, e.g. link width, link length, link type, number of lane, having bus stops, etc
+> 🛣️ - Road or highway characteristics, e.g. link width, link length/distance, link type, number of lane, having bus stops, etc
 
 - Before 2020
 
@@ -28,16 +28,22 @@ A Collection of resources for traffic prediction with external factors apart fro
 |AAAI '17|Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/10735) [Page](http://urban-computing.com/index-75.htm)|ST-ResNet|🌧️📅|[ST-ResNet-Pytorch](https://github.com/BruceBinBoxing/ST-ResNet-Pytorch)<br>[STResNet-PyTorch](https://github.com/KL4805/STResNet-PyTorch)<br>[ST-ResNet](https://github.com/topazape/ST-ResNet)<br>[STResNet](https://github.com/snehasinghania/STResNet)|[Beijing](https://github.com/topazape/ST-ResNet/tree/main/datasets/TaxiBJ)<br>[NYC](https://github.com/topazape/ST-ResNet/tree/main/datasets/BikeNYC)|
 |SIGSPATIAL '18|Bike Flow Prediction with Multi-Graph Convolutional Networks [Paper](https://doi.org/10.1145/3274895.3274896)|Multi-Graph Convolutional Neural Network|🌧️|[GraphCNN-Bike](https://github.com/Di-Chai/GraphCNN-Bike)|[NYC bike](https://www.citibikenyc.com/system-data)<br>[CHI Bike](https://www.divvybikes.com/system-data)<br>[NOAA NCEI](https://www.ncdc.noaa.gov/data-access)|
 |KDD '18|Deep sequence learning with auxiliary information for traffic prediction [Paper](https://dl.acm.org/doi/10.1145/3219819.3219895)|based on Seq2Seq+|🚧|[BaiduTraffic](https://github.com/JingqingZ/BaiduTraffic)|[Q-Traffic](https://aistudio.baidu.com/datasetdetail/177190)|
+|IJCAI-18|GeoMAN: Multi-level Attention Networks for Geo-sensory Time Series Prediction [Paper](https://www.ijcai.org/proceedings/2018/476)|GeoMAN|🌧️🏪|[GeoMAN(Tensorflow)](https://github.com/yoshall/GeoMAN)<br>[GeoMAN(Pytorch)](https://github.com/xchadesi/GeoMAN)|Water quality<br>[Air quality](http://zx.bjmemc.com.cn/)|
 |AAAI '18|Deep multi-view spatial-temporal network for taxi demand prediction [Paper](https://dl.acm.org/doi/abs/10.5555/3504035.3504351)|DMVST-Net|🌧️📅|[DMVST-Net](https://github.com/huaxiuyao/DMVST-Net)|DiDi(Guangzhou)|
 |IET ITS|Combining weather condition data to predict traffic flow: A GRU‐based deep learning approach [Paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-its.2017.0313)|DGRNN|🌧️||[PeMS](http://pems.dot.ca.gov/)<br>[NOAA](https://www.ncdc.noaa.gov/cdo-web/datasets)|
 |IEEE MDM '19|Temporal Graph Convolutional Networks for Traffic Speed Prediction Considering External Factors [Paper](https://ieeexplore.ieee.org/document/8788749)|GTCN|🌧️📅🏪||[PEMSD7,PEMSD4](https://doi.org/10.5281/zenodo.7816008)|
+|AAAI '19|Spatiotemporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting [Paper](https://doi.org/10.1609/aaai.v33i01.33013656)|ST-MGCN|🏪|[ST-MGCN](https://github.com/underdoc-wang/ST-MGCN)|Beijing<br>Shanghai|
+|AAAI '19|DeepSTN+: Context-Aware Spatial-Temporal Neural Network for Crowd Flow Prediction in Metropolis [Paper](https://doi.org/10.1609/aaai.v33i01.33011020)|DeepSTN+|🏪|[DeepSTN](https://github.com/FIBLAB/DeepSTN)|MobileBJ<br>[BikeNYC](https://www.citibikenyc.com/system-data)|
+|AAAI '19|Revisiting Spatial-Temporal Similarity: A Deep Learning Framework for Traffic Prediction [Paper](https://doi.org/10.1609/aaai.v33i01.33015668)|STDN|🌧️🚧(But not use in experiment)|[STDN](https://github.com/tangxianfeng/STDN)|[NYC-Taxi](https://github.com/tangxianfeng/STDN)<br>[NYC-Bike](https://github.com/tangxianfeng/STDN)|
 |KDD '19|UrbanFM: Inferring Fine-Grained Urban Flows [Paper](http://doi.acm.org/10.1145/3292500.3330646)|UrbanFM|🌧️📅🚧|[UrbanFM](https://github.com/yoshall/UrbanFM)|[TaxiBJ](https://github.com/yoshall/UrbanFM/tree/master/data)<br>[HappyValley](heat.qq.com)|
+|KDD '19|Urban traffic prediction from spatio-temporal data using deep meta learning [Paper](https://doi.org/10.1145/3292500.3330884)|ST-MetaNet|🏪🛣️|[ST-MetaNet](https://github.com/panzheyi/ST-MetaNet)|[TDrive(flow)](http://urban-computing.com/index-58.htm)<br>[METR-LA(speed)](https://paperswithcode.com/dataset/metr-la)|
 
 
 - 2020
 
 |Journal/<br>Conference|Title|Model|Factors|Code|Data|
 |:---|:-------|:------|:------:|:------:|:------:|
+|AAAI '20|Multi-Range Attentive Bicomponent Graph Convolutional Network for Traffic Forecasting [Paper](https://doi.org/10.1609/aaai.v34i04.5758)|MRA-BGCN|🛣️|[MAR-BGCN_GPU_pytorch](https://github.com/wumingyao/MAR-BGCN_GPU_pytorch)|[METR-LA](https://paperswithcode.com/dataset/metr-la)<br>[PEMS-BAY](https://paperswithcode.com/dataset/pems-bay)|
 |IET ITS|Multi‐step traffic speed prediction model with auxiliary features on urban road networks and its understanding [Paper](https://doi.org/10.1049/iet-its.2020.0284)|EGC-LSTM|🌧️📅🛣️||[Guiyang](https://tianchi.aliyun.com/competition/entrance/231598/introduction)<br>[NOAA](https://www.noaa.gov/)|
 |TR_C|Evaluation and prediction of transportation resilience under extreme weather events: A diffusion graph convolutional approach [Paper](https://doi.org/10.1016/j.trc.2020.102619)|based on DCRNN and dynamic-capturing algorithm|🌧️|[resilience_shenzhen](https://github.com/Charles117/resilience_shenzhen)|DiDi<br>[NCAR](https://pan.baidu.com/s/1v7FTyb2VpLghoFg86V4E5w)|
 |IEEE TKDE|Flow prediction in spatio-temporal networks based on multitask deep learning [Paper](https://ieeexplore.ieee.org/document/8606218)|MDL|🌧️📅|[MDL(uno)](https://github.com/wanzhixiao/MDL)|[NYC Taxi](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)|
@@ -84,6 +90,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 |Elsevier EAAI|A traffic-weather generative adversarial network for traffic flow prediction for road networks under bad weather [Paper](https://doi.org/10.1016/j.engappai.2024.109125)|TWeather-GAN|🌧️||[PeMS](http://pems.dot.ca.gov/)<br>[MesoWest](https://mesowest.utah.edu/)|
 |T&F SSCE|Short-term traffic flow prediction at isolated intersections based on parallel multi-task learning [Paper](https://doi.org/10.1080/21642583.2024.2316160)|MTL-fusion|📅||Nanhu(Jiaxing)|
 |ACM CIKM '24|Empowering traffic speed prediction with auxiliary feature-aided dependency learning [Paper](https://doi.org/10.1145/3627673.3679909)|ARIAN|🌧️📅||[PeMS-D4](https://doi.org/10.5281/zenodo.7816008)<br>[PeMS-D8](https://doi.org/10.5281/zenodo.7816008)<br>Cityway|
+|ACM CIKM '24|Seeing the Forest for the Trees: Road-Level Insights Assisted Lane-Level Traffic Prediction [Paper](https://doi.org/10.1145/3627673.3679600)|McgVAE|🛣️|[McgVAE](https://github.com/ShuhaoLii/McgVAE)|[PeMS(_F)](https://github.com/ShuhaoLii/McgVAE/tree/master/Datasets)<br>[HuaNan(Guangzhou)](https://github.com/ShuhaoLii/McgVAE/tree/master/Datasets)|
 
 - 2025
 
@@ -96,6 +103,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 |Applied Soft Computing|MGC-DMF: A traffic flow forecasting method based on multi-graph spatio-temporal convolution and dynamic metric fusion with multi-source basic information [Paper](https://linkinghub.elsevier.com/retrieve/pii/S1568494625004892)|MGC-DMF|🌧️(Used for predictive performance stability analysis)|[MGC-DMF](https://github.com/charlotte404/MGC-DMF)|[PEMSD4](https://github.com/guoshnBJTU/ASTGNN)<br>[PEMSD8](https://github.com/guoshnBJTU/ASTGNN)<br>[SZ-taxi](https://github.com/lehaifeng/T-GCN)|
 |T&F TPT|Short-term traffic flow prediction based on adaptive graph convolutional recurrent network under multi-factor fusion [Paper](https://doi.org/10.1080/03081060.2025.2498968)|EAG-LSTMA|🌧️📅🚧||[Longgang(SZ)](https://github.com/WisleyWang/2020HUAWEI-big-data-challenge)|
 |IEEE TVT|Condition-Guided Urban Traffic Co-Prediction With Multiple Sparse Surveillance Data [Paper](https://ieeexplore.ieee.org/document/10528876)|CSTN|🏪🛣️||[NYC taxi](https://opendata.cityofnewyork.us/)<br>[NYC Bike](https://opendata.cityofnewyork.us/)<br>[NYC Accident](https://opendata.cityofnewyork.us/)<br>External factors|
+|KDD '25|CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events [Paper](https://doi.org/10.1145/3690624.3709231)|CausalMob|🚧|[CausalMob](https://github.com/YangXiaojie1998/CausalMob)|Japan|
 
 
 *DiDi: Open datasets from [Didi Chuxing GAIA Initiative](http://outreach.didichuxing.com/research/opendata/en/), tracing the records of taxi drivers and passengers in cities, China. It seems it is not applicable now.*
