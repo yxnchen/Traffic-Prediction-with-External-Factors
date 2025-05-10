@@ -15,6 +15,7 @@ A Collection of resources for traffic prediction with external factors apart fro
 
 ## Papers
 
+- **Types of External Factor:**
 > 🌧️ - Meteorology, including weather conditions, temperature, wind speed etc
 >
 > 📅 - Holidays or other temporal features
@@ -24,6 +25,15 @@ A Collection of resources for traffic prediction with external factors apart fro
 > 🏪 - POIs or Land features
 >
 > 🛣️ - Road or highway characteristics, e.g. link width, link length/distance, link type, number of lane, having bus stops, etc
+
+- **Methods of Integrating External Factors**
+> ➕ - Concatenation
+>
+> 📈 - LSTM, GRU
+>
+> 🔥 - Fusion
+>
+> 🟢 - Knowledge representation learning
 
 ### Before 2020
 
